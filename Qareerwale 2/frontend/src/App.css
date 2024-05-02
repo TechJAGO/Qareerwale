@@ -1,0 +1,206 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* nav bar css  */
+
+.navmain{
+  background-color: #1d174f;
+  background-image: #1d174f;
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-items: left;
+}
+
+.navlogo{
+  justify-self: center;
+  align-self: center;
+  padding: 1rem 0rem 0rem 1rem;
+}
+
+.navlogo img{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50px;
+}
+
+.navleft{
+  display: flex;
+  width: 100%;
+  justify-self: center;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  position: relative;
+  font-family:'Montserrat';
+  color: #f49f1c;
+}
+
+.navleft li{
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+/* home main page css  */
+
+.homemain{
+  color:#f49f1c;
+  /* background-color: #f49f1c; */
+  height: 72vh;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-image: url('./Components/Assets/bgg.png');
+  background-repeat:repeat;
+  background-size: contain;
+  font-size: large;
+  font-family: 'Montserrat';
+  justify-content: center;
+  align-content: center;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.homemain p{
+  padding: 1rem;
+  background-color: #1d174f;
+}
+
+ /* login page css  */
+.maincontent{
+  display: grid;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  /* background-image: url('./Components/Assets/bgg.png'); */
+  image-orientation:10deg;
+  background-position: center;
+  background-repeat:repeat;
+  background-size: contain;
+  position: relative;
+}
+
+
+.headerlogin{
+  font-family:'Montserrat';
+  margin-bottom: 0%;
+}
+
+.loginmain{
+  justify-self: center;
+  align-self: center;
+  width: auto;
+  height: auto;
+  background-color: #f49f1c;
+  border-radius: 1.5rem;
+  color: #1d174f;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.headerlogin h1{
+  margin: 3rem 1rem 0rem 0rem;
+}
+
+.loginfeilds{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-family:'Montserrat';
+}
+
+.loginfeilds img{
+  border-radius: 10px;
+}
+
+.loginfeilds input{
+  width: 20vw;
+  margin-left: 1.2rem;
+  margin-bottom: 1.2rem;
+  border-radius: 10px;
+  height: 5vh;
+  text-decoration: none;
+  justify-items: center;
+  align-items: center;
+  font-family:'Montserrat';
+  padding-left: 1.5rem;
+}
+
+.loginbtn button{
+  width: 11vw;
+  background-color: #1d174f;
+  border-radius: 10px;
+  color: #f49f1c;
+  font-weight: bold;
+  font-size: 1.5rem;
+  height: 6vh;
+  font-family:'Montserrat';
+  text-decoration: none;
+}
+
+.loginbtn button:hover{
+  width: 11vw;
+  background-color: #f49f1c;
+  border-radius: 10px;
+  color: #1d174f;
+  font-weight: bold;
+  font-size: 1.5rem;
+  box-shadow: 5px;
+  height: 6vh;
+  font-family:'Montserrat';
+  text-decoration: none;
+}
+
+.feilds{ 
+  padding: 1rem;
+}
+
+/* footer section css  */
+
+.footermain{
+  background-color: #1d174f;
+  justify-content: center;
+  align-content: center;
+  height: 10vh;
+  color: #f49f1c;
+  font-family: 'Montserrat';
+  font-size: large;
+  font-weight: bolder;
+}
